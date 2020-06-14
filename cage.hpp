@@ -15,8 +15,8 @@ public:
     void set_era(std::string);
     void set_type(std::string);
     void set_dinosaurs(std::vector<Dinosaur>);
-
     short get_capacity() const;
+
     std::string get_size() const;
     std::string get_climate() const;
     std::string get_era() const;
